@@ -79,7 +79,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_f,      spawn,          {.v = browsercmd } },
 	{ MODKEY,                       XK_r,      spawn,          SHCMD("./.config/rofi/launcher.sh") },
-	{ MODKEY,                       XK_m,      spawn,          SHCMD("nautilus") },
+	{ MODKEY,                       XK_p,      spawn,          SHCMD("pcmanfm") },
 
   // close windows / restart dwm
 	{ MODKEY,                       XK_c,      killclient,     {0} },
